@@ -1,0 +1,43 @@
+Fourier Numbers
+
+Sine:
+    Square:
+        Coefficient = (2 * n) + 1
+        Numerator = 4
+        Denominator = PI * ((2 * n) + 1)
+    
+    Sawtooth:
+        Coefficient = n
+        Numerator = 2
+        Denominator = ((-1) ** n) * n * PI
+    
+    Triangle:
+        Coefficient = ((2 * n) + 1)
+        Numerator = 8 * ((-1) ** (((2 * n + 1) - 1) / 2))
+        Denominator = (PI * ((2 * n) + 1)) ** 2
+
+    Clausen:
+        Coefficient = n
+        Numerator = 1
+        Denominator = n * n 
+
+Cosine:
+    1:
+        Coefficient = (2 * n) + 1
+        Numerator = 4
+        Denominator = PI * ((2 * n) + 1)
+
+    2:
+        Coefficient = n
+        Numerator = 2
+        Denominator = ((-1) ** n) * n * PI
+
+    3:
+        Coefficient = ((2 * n) + 1)
+        Numerator = 8 * ((-1) ** (((2 * n + 1) - 1) / 2))
+        Denominator = (PI * ((2 * n) + 1)) ** 2
+
+    4:
+        Coefficient = n
+        Numerator = 1
+        Denominator = n * n 
