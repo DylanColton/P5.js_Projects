@@ -1,5 +1,7 @@
 Fourier Numbers
 
+This file contains the nth term expressions for certain Fourier Transforms to be placed in the correct functions in the "Fourier_Series.js" file 
+
 Sine:
     Square:
         Coefficient = (2 * n) + 1
